@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,28,&H00FFFFFF,&H000000FF,&H00101814,&H80000000,0,0,0,0,100,100,0,0,1,1,0,2,70,70,20,1
+Style: Banner,Arial,25,&H00FFFFFF,&H000000FF,&H00101814,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,8,60,60,10,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:02:09.90,Banner,,0,0,0,,SAVED API REPLAY — NO NEW CALLS
+Dialogue: 0,0:00:00.00,0:00:12.00,Default,,0,0,0,,One More, Three Ways: compare a new top with three outfits you already own.\NThis is an edited walkthrough of saved, real API results.
+Dialogue: 0,0:00:12.00,0:00:25.00,Default,,0,0,0,,Three synthetic adult wardrobe images and an Ivory shirt reference\Nwere uploaded with YouCam File API for Clothes V3 upper-body replacement.
+Dialogue: 0,0:00:25.00,0:00:45.00,Default,,0,0,0,,Compare each saved result with its original outfit.\NAll three generation requests completed in the authorized trial.
+Dialogue: 0,0:00:45.00,0:01:03.00,Default,,0,0,0,,Lower garments and shoes appear retained on visual inspection.\NCollar, sleeves, hem and buttons differ; physical fit is unverified.
+Dialogue: 0,0:01:03.00,0:01:15.00,Default,,0,0,0,,Approvals represent a shopper’s preference, not a fit or quality certificate.\NAt least two approved looks and a valid budget are required.
+Dialogue: 0,0:01:15.00,0:01:28.00,Default,,0,0,0,,The invented $48 price divided by two approved looks gives $24;\Nthree approved looks give $16. This is not cost per wear.
+Dialogue: 0,0:01:28.00,0:01:39.00,Default,,0,0,0,,A $48 budget includes the candidate. A $47 budget excludes it.\NBuying nothing remains a valid outcome.
+Dialogue: 0,0:01:39.00,0:01:49.00,Default,,0,0,0,,Invalid budget input is flagged rather than used for ranking.\NThe demo price is invented; there is no checkout.
+Dialogue: 0,0:01:49.00,0:02:00.00,Default,,0,0,0,,These receipts refer to the same three saved outputs.\NReplay reads no API credential and submits no new generation.
+Dialogue: 0,0:02:00.00,0:02:09.90,Default,,0,0,0,,Original trial estimate: 6 units; actual charge remains unverified.\NHuman quality approval for a larger trial is still pending.

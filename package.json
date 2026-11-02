@@ -1,0 +1,22 @@
+{
+  "name": "one-more-three-ways",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/build.mjs && node server/index.mjs",
+    "start": "node server/index.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "npm test && npm run build && node test/security.mjs",
+    "replay": "node scripts/build.mjs && node server/replay.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "esbuild": "0.28.0"
+  }
+}

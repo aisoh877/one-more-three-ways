@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.data/
+.local/
+.env
+.env.*
+*.log
+*.sqlite*
+evidence/build-inputs.json
+.DS_Store

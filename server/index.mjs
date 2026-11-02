@@ -1,0 +1,13 @@
+import {TaskStore} from './store.mjs';
+import {MockAdapter} from './adapters.mjs';
+import {TaskManager} from './manager.mjs';
+import {createApp} from './http.mjs';
+if((process.env.YOUCAM_MODE??'mock')!=='mock')throw new Error('Live mode is disabled in this local prototype. No request was sent.');
+const port=Number(process.env.PORT??4173);
+if(!Number.isInteger(port)||port<1024||port>65535)throw new Error('Invalid local port.');
+const store=new TaskStore('.data/tasks.sqlite');
+const manager=new TaskManager(store,new MockAdapter(),{pollMs:20,maxPolls:3});
+const server=createApp(manager);
+server.listen(port,'127.0.0.1',()=>console.log(`One More, Three Ways · MOCK ONLY · http://127.0.0.1:${port}`));
+let closing=false;
+for(const signal of ['SIGTERM','SIGINT'])process.on(signal,async()=>{if(closing)return;closing=true;server.close();await manager.stop();store.close();});
