@@ -1,6 +1,6 @@
-# One More, Three Ways — English submission draft
+# One More, Three Ways — English submission description
 
-**Submission draft — not submitted.** Updated November 2, 2026. Three real API outputs have been verified technically. The available local demo is an explicitly labeled saved replay, not live generation during evaluation. Entrant review and final contest requirements remain pending.
+**Submitted November 2, 2026; receipt confirmed at 14:34 UTC.** [Devpost entry](https://devpost.com/software/one-more-three-ways) · [public demonstration](https://youtu.be/V4zWcOyleOQ). Three real API outputs have been verified technically. The available local demo is an explicitly labeled saved replay, not live generation during evaluation. Submission does not establish an award, garment fidelity or provider reliability.
 
 ## Tagline
 
@@ -36,11 +36,11 @@ A useful shopping aid needs visible human choices and honest limits. A generated
 
 YouCam Clothes V3 and File API, React, Node.js, SQLite, esbuild, JavaScript and CSS. Synthetic adult/model and product input assets; original SVGs for the separate mock workflow. AI assistance was used for implementation and documentation.
 
-## Required entrant decisions before release
+## Submission and evaluation access
 
-- Review the actual three outputs and limitations, asset rights, authorship, eligibility and dependency notices; select a source license.
+- Entrant eligibility, submission rights and the contest-specific rules/terms were confirmed before submission. No new open-source license for the original work was granted; see the repository rights notice and retained dependency notices.
 - Repository and local test-build access: https://github.com/aisoh877/one-more-three-ways . The demo runs locally using the included instructions.
-- A real-UI English-captioned demo is included in the repository. A public YouTube/Vimeo submission link still needs an approved account/channel. The video discloses saved replay and the actual API workflow.
-- Complete entry fields and submit after final review. No hosted deployment or contest receipt is claimed.
+- A real-UI English-captioned demo is included in the repository and publicly available on YouTube at the link above. It discloses saved replay and the actual API workflow.
+- Devpost displayed “Project submitted!” after final submission. The entry is public; no hosted live deployment is claimed. Keep the free source and local evaluation build accessible through the judging period.
 
 Further paid generation is not required to inspect these three results and is outside this preparation step.

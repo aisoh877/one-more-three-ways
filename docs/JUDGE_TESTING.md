@@ -33,4 +33,4 @@ The original nine-pair SVG workflow is separately available via `npm run dev` at
 
 ## Evidence and limits
 
-See [quality review](REPLAY_REVIEW_2026-11-02.md) and [live-trial report](FIRST_LIVE_TEST_RESULT_2026-11-02.md). Three generation requests succeeded; estimated consumption is 6 units, while the actual billed amount remains unverified. Replay speed does not measure API latency. Human approval for expanding to nine real combinations is pending. The recorded UI video and repository are available here. The final contest submission and required YouTube/Vimeo link are separate steps.
+See [quality review](REPLAY_REVIEW_2026-11-02.md) and [live-trial report](FIRST_LIVE_TEST_RESULT_2026-11-02.md). Three generation requests succeeded; estimated consumption is 6 units, while the actual billed amount remains unverified. Replay speed does not measure API latency. Human approval for expanding to nine real combinations is pending. The [public YouTube demonstration](https://youtu.be/V4zWcOyleOQ) and [submitted Devpost entry](https://devpost.com/software/one-more-three-ways) are available. Submission receipt was confirmed on November 2, 2026 at 14:34 UTC.

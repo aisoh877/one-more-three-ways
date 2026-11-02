@@ -2,7 +2,7 @@
 
 Compare one new top with three outfits you already own, approve combinations you like, and filter the shortlist by budget.
 
-This prototype includes **three real YouCam Clothes V3 upper-body outputs** from an authorized trial on November 2, 2026. The default recorded-result demo is a **saved replay**, with no new API requests, credentials or generation charges. All people and apparel inputs are synthetic, and prices are invented. This repository is published for review and evaluation; a contest submission has not yet been confirmed.
+This prototype includes **three real YouCam Clothes V3 upper-body outputs** from an authorized trial on November 2, 2026. The default recorded-result demo is a **saved replay**, with no new API requests, credentials or generation charges. All people and apparel inputs are synthetic, and prices are invented. [The Devpost entry](https://devpost.com/software/one-more-three-ways) was submitted on November 2, 2026; receipt was confirmed at 14:34 UTC. Submission is not an award or acceptance of the project's claims.
 
 ## Run the recorded-result demo
 
@@ -20,6 +20,8 @@ The UI says **SAVED API REPLAY · NO NEW CALLS**. Inspect the reference shirt, t
 ## Watch the actual UI demonstration
 
 [English-captioned real UI demo — 2 minutes 10 seconds](demo/recorded-replay-demo.mp4) · [caption source](demo/captions.en.ass) · [English transcript](demo/transcript.en.md)
+
+[Watch the public YouTube demonstration](https://youtu.be/V4zWcOyleOQ). Signed-out playback was verified at the beginning, middle and end.
 
 The video records actual operation of this local app with the saved API results. It is silent, with burned-in English captions and a persistent replay disclosure. Idle time and corrected keyboard gestures were cut; the retained footage is not sped up. It is not a live generation recording. No private account pages or unrelated app windows are included.
 
